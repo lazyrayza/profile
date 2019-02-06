@@ -1,0 +1,148 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  .card-white {
+    margin-left: 34%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card-white {
+      margin-left: 47%;
+    }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  element.style {
+    margin-left: 63%;
+}
+}
+body{
+  background: #F7F9FC;
+  color: rgb(20, 20, 20);
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+
+h1{
+  font-family: Open Sanas;
+  color: rgb(100, 151, 151);
+  font-weight: lighter;
+  font-size: 28px;
+
+}
+h2 {
+  font-family: Open Sans Condensed;
+  color: rgb(93, 151, 254);
+  font-weight: lighter;
+  font-size: 24px;
+}
+p {
+  font-family: Open Sans Condensed;
+  font-style: italic;
+  font-size: 18px;
+}
+
+a {
+  font-family: Open Sans Condensed;
+  font-size: 16px;
+/*  color: rgb(213, 151, 151);
+*/}
+/*a:hover {
+  text-decoration: none;*/
+/*  color: rgb(80, 80, 80);
+*/}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+        box-sizing: border-box;
+
+}
+.image {
+  background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+     float: left;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#logo:hover {
+    content: url(https://media.giphy.com/media/dzaUX7CAG0Ihi/giphy.gif); /* no need for qoutes */
+    display: block;
+  }
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: rgb(40,40,160);
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: rgb(255, 158, 141);
+  color: white;
+}
+.bye-blue {
+  background-color: #6B72E1;
+  color: rgb(40,40,160);
+  padding: 25px 80px;
+  border-radius: 4px;
+}
+.bye-blue:hover {
+  content: url(https://media.giphy.com/media/3o6EhKMlqjCLxsZ06k/giphy.gif); /* no need for qoutes */
+    display: block;
+}
+
+#last {
+  height: 80px;
+  width: 160px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: rgb(255, 158, 141);
+}
+.container {
+  display: flex; /* or inline-flex */
+}
+
